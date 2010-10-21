@@ -1,0 +1,18 @@
+Build prerequisites:
+
+State-Threads:
+	http://state-threads.sourceforge.net/
+
+Lua:
+	http://www.lua.org/
+
+Zlib:
+	http://zlib.net/
+
+
+Building on Mac OS X:
+make INCS=-L/usr/local/include LIBS=-llua
+
+
+Linux:
+make INCS=-I/usr/include/lua5.1 LIBS=-ldl
