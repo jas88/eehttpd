@@ -1,6 +1,6 @@
 #include <st.h>
 #include <zlib.h>
-#include <lua5.1/lua.h>
+#include <lua.h>
 
 int main(int argc,char **argv)
 {
